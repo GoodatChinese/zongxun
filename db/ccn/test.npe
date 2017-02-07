@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExportProfile Ver="1.2">
+  <General ConnectionUserUUID="" ConnectionName="192.168.1.1" DatabaseName="ccn" SchemaName="" ExportType="DBase" TargetCodepage="65001" AddTimeStamp="false" TimeStampFormat="" IncludeTitle="false" FieldDelimiter="	" DateFormat="YMD" DateSeparator="/" ZeroPaddingDate="false" TimeSeparator=":" DecimalSeparator="." TextQualifier="&quot;" RowDelimiter="0" XMLFormat="Element" UseBase64="true" AppendRecord="false" ContinueOnError="false"/>
+  <STable STableName="administrator" TTableName="" TargetFile="C:\Users\Administrator\Desktop\administrator.dbf" AllFields="true"/>
+  <STable STableName="user" TTableName="" TargetFile="C:\Users\Administrator\Desktop\user.dbf" AllFields="true"/>
+</ExportProfile>
