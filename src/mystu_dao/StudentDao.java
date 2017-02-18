@@ -77,14 +77,13 @@ public class StudentDao {
 		pst.setString(4,stusex);
 		pst.setString(5,stugrade);
 		i=pst.executeUpdate();
-		System.out.println("²åÈëÊı¾İ"+i+"ĞĞ");
+		System.out.println("æ’å…¥æ•°æ®"+i+"è¡Œ");
 		} 	
 		 catch (SQLException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 		}
 		return i;
-
 		}
 		public int update(int stuid,String stuname,String stusex,int stuage,String stugrade){
 		String sql="update student set stu_name=?,stu_sex=?,stu_age=?,stu_grade=?,stu_id=?";
@@ -97,7 +96,7 @@ public class StudentDao {
 		pst.setString(4,stusex);
 		pst.setString(5,stugrade);
 		i=pst.executeUpdate();
-		System.out.println("²åÈëÊı¾İ"+i+"ĞĞ");
+		System.out.println("æ’å…¥æ•°æ®"+i+"è¡Œ");
 		} 	
 		 catch (SQLException e) {
 		// TODO Auto-generated catch block
@@ -112,7 +111,7 @@ public class StudentDao {
 		pst=con.prepareStatement(sql);
 		pst.setInt(1,stuid);
 		i=pst.executeUpdate();
-		System.out.println("²åÈëÊı¾İ"+i+"ĞĞ");
+		System.out.println("æ’å…¥æ•°æ®"+i+"è¡Œ");
 		} 	
 		 catch (SQLException e) {
 		// TODO Auto-generated catch block
@@ -120,7 +119,4 @@ public class StudentDao {
 		}
 		return i;
 		}
-
-
-		
 }
